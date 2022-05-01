@@ -1,0 +1,91 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: url("calculator.jpg") center no-repeat;
+    background-size: cover;
+}
+#calculator
+{
+    height: 460px;
+    width: 300px;
+    background: #efecec;
+    box-shadow: 1px -1px 2px #ff98006d, -1px 1px 2px #28d7006d;
+    position: relative;
+    overflow: hidden;
+}
+#display
+{
+    height: 90px;
+    width: 300px;
+    background: rgb(6 6 6 / 5%);
+}
+#result
+{
+    height: 90px;
+    width: 300px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+}
+#keys
+{
+    margin: 10px 0px 0px 0px;
+    height: 300px;
+    width: 300px;
+    padding: 0px 15px;
+}
+.btns
+{
+    height: 58px;
+    width: 58px;
+    color: #000;
+    background: rgb(6 6 6 / 5%);
+    margin: 0px 6px 10px 0px;
+    font-size: 22px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btns:hover
+{
+    background: rgb(6 6 6 / 30%);
+}
+#clear
+{
+    height: 126px;
+    position: absolute;
+    bottom: 9px;
+    right: 18px;
+    border-radius: 70px;
+    background: #28d7007d;
+    transition: 0.2s;
+}
+#clear:hover
+{
+    background: #28d700b2;
+}
+#equal
+{
+    width: 126px;
+    border-radius: 70px;
+    background: #ff98006b;
+    transition: 0.2s;
+}
+#equal:hover
+{
+    background: #ff9800a6;
+}
